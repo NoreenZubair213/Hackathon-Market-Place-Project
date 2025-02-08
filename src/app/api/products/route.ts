@@ -1,10 +1,3 @@
-// import { NextResponse } from 'next/server';
-
-// export async function GET() {
-//   return NextResponse.json({ message: "Products API is working!" });
-// }
-
-
 import { NextResponse } from 'next/server';
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
