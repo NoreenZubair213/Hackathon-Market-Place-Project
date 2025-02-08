@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+
+    .wrapper {
+        @apply w-full max-w-[1200px] mx-auto px-[16px] sm:px-[20px] md:px-[24px] lg:px-[32px];
+    }
+    .custom{
+        @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+         md:grid-cols-4 gap-6 max-w-screen-xl mx-auto px-4 md:px-8 mt-8
+    }
+}
